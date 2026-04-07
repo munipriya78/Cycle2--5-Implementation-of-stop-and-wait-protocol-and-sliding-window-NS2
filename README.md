@@ -20,6 +20,7 @@
 ## Step 16: Stop the program.
  
 # PROGRAM:
+```
 ## set ns [new Simulator]
 ## set namfile [open out.nam w]
 ## $ns namtrace-all $namfile proc finish {}
@@ -66,11 +67,10 @@
 ## $ns at 0.0 "$n0 label Sender"
 ## $ns at 0.0 "$n1 label Receiver"
 ## $ns run
- 
+ ```
 # OUTPUT:
 
-
-
+![510075489-14347ecd-fe85-4929-ab6e-9d88d39ecf1f](https://github.com/user-attachments/assets/1a318f0f-8522-4baa-86b1-3a874d692aec)
 
 
 ## MARK ALLOCATION	TOTAL MARKS	MARKS OBTAINED
@@ -80,9 +80,6 @@
 ## OUTPUT	20	
 ## VIVA	20	
 ## TOTAL	100	
-
-
-
 
 
 ## RESULT:
